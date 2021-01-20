@@ -3,7 +3,7 @@
 let arr = [1, 2, 3, 4, 5, 6];
 
 let newArr = arr.map(function(num) {
-    return num++;
+    return num + 1;
 })
 
 console.assert(JSON.stringify(newArr) == JSON.stringify([2, 3, 4, 5, 6, 7]));
