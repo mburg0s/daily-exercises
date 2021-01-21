@@ -36,6 +36,7 @@ let fruits = [
 ];
   const filtered = fruits.filter(function(str){
     return !str.name.includes('cherry')
+    // return str.name != 'cherry'
 
   })
 console.assert(
