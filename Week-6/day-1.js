@@ -72,10 +72,8 @@ console.assert(factorial(3) === 6)
 // make a function grabKey
 // that takes an object and a string and grabs the key of the object
 function grabKey(obj, key) {
-     for (key in obj) {
         return obj[key]
 
-     }
 
 }
 console.assert(grabKey({name: 'susan'}, 'name') === 'susan')
@@ -119,7 +117,7 @@ function collectLetters(str) {
         if (!obj2[letter]) {
             obj2[letter] = 1
         } else {
-            obj2[letter] ++
+            obj2[letter]++
         }
     }
     console.log(obj2)
